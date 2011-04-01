@@ -1,9 +1,7 @@
-import java.io.IOException;
 import java.io.InputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.Arrays;
 
 
 public class Server {
@@ -21,8 +19,7 @@ public class Server {
 			s=server.accept();
 			InputStream in= s.getInputStream();
 			byte[] b = new byte[2];
-			int i;
-			while((i=in.read(b))>0){
+			while((in.read(b))>0){
 				System.out.print(new String(b).trim());
 			}
 			in.close();
