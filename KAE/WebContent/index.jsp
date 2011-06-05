@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>KAE</title>
+<title>Kik App Engine</title>
 </head>
 <body>
-正式启动
+KAE(Kik App Engine) is an app engine based java.
 </body>
 </html>
